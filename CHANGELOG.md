@@ -9,7 +9,10 @@ project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [[v8.?.?](https://github.com/terraform-aws-modules/terraform-aws-eks/compare/v8.1.0...HEAD)] - YYYY-MM-DD]
 
-- Write your awesome change here (by @you)
+- Include ability to configure custom os-specific command for waiting until kube cluster is healthy (@sanjeevgiri)
+- Disable creation of ingress rules if worker nodes security groups are exists (@andjelx)
+- [CI] Update pre-commit and re-generate docs to work with terraform-docs >= 0.8.1 (@barryib)
+- Names of Auto Scaling Groups don't have to start with cluster name (by @michcio1234 and @tsub)
 
 # History
 
